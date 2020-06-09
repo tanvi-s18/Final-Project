@@ -22,26 +22,32 @@
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E18-gq-VWA">
-                                <rect key="frame" x="77" y="294" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E18-gq-VWA">
+                                <rect key="frame" x="20" y="253" width="327" height="163"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Louise 🤩" image="Screen Shot 2020-06-09 at 2.31.36 PM"/>
                                 <connections>
                                     <segue destination="vGV-kE-5XX" kind="show" id="crJ-9d-QNH"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZS8-8K-Cap">
-                                <rect key="frame" x="77" y="410" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZS8-8K-Cap">
+                                <rect key="frame" x="20" y="424" width="327" height="228"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Tanvi 😎" image="Screen Shot 2020-06-09 at 2.31.41 PM"/>
                                 <connections>
                                     <segue destination="vGV-kE-5XX" kind="show" id="xry-I5-IqF"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R72-LU-aFB">
-                                <rect key="frame" x="77" y="541" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R72-LU-aFB">
+                                <rect key="frame" x="20" y="660" width="327" height="202"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Jay 🤪" image="Screen Shot 2020-06-09 at 2.31.46 PM"/>
                                 <connections>
                                     <segue destination="vGV-kE-5XX" kind="show" id="eAm-ld-wwJ"/>
                                 </connections>
@@ -71,8 +77,43 @@
             </objects>
             <point key="canvasLocation" x="901" y="146"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="Tpy-dB-ZSF">
+            <objects>
+                <viewController id="7kN-Zv-NhH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="buU-L2-ggR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="g3E-Jm-nt1"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SvQ-Eh-Sqy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1564" y="150"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="WTi-aW-jof">
+            <objects>
+                <viewController id="xuV-I7-UAn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Nzz-3G-by6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="jqh-xF-a9Q"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fkj-cT-Tl2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2241" y="158"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="eAm-ld-wwJ"/>
     </inferredMetricsTieBreakers>
+    <resources>
+        <image name="Screen Shot 2020-06-09 at 2.31.36 PM" width="201" height="163"/>
+        <image name="Screen Shot 2020-06-09 at 2.31.41 PM" width="175" height="228"/>
+        <image name="Screen Shot 2020-06-09 at 2.31.46 PM" width="205" height="202"/>
+    </resources>
 </document>
