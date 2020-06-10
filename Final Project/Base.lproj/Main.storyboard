@@ -95,6 +95,9 @@
                                     <accessibilityTraits key="traits" button="YES" image="YES"/>
                                 </accessibility>
                                 <state key="normal" image="Screen Shot 2020-06-09 at 8.33.08 PM"/>
+                                <connections>
+                                    <segue destination="xuV-I7-UAn" kind="show" id="iUd-ii-RA4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ROk-z6-IQi">
                                 <rect key="frame" x="0.0" y="602" width="123" height="149"/>
@@ -161,6 +164,55 @@
                     <view key="view" contentMode="scaleToFill" id="buU-L2-ggR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MOST POPULAR MUSICALS" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tw9-zx-HJK">
+                                <rect key="frame" x="20" y="9" width="374" height="259"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="39"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sDa-MC-5gl">
+                                <rect key="frame" x="29" y="179" width="165" height="252"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" image="MEAN"/>
+                                <connections>
+                                    <segue destination="xuV-I7-UAn" kind="show" id="9xr-OA-JsU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wmg-gA-xfA">
+                                <rect key="frame" x="29" y="508" width="165" height="254"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" image="HAM"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ov-K7-UDg">
+                                <rect key="frame" x="224" y="508" width="170" height="257"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" image="HADES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5o3-mM-Tyd">
+                                <rect key="frame" x="224" y="185" width="170" height="246"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" image="NEWS"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2020-06-09 at 8.48.51 PM" translatesAutoresizingMaskIntoConstraints="NO" id="Unc-qg-d9I">
+                                <rect key="frame" x="-12" y="785" width="426" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="g3E-Jm-nt1"/>
                     </view>
@@ -168,18 +220,19 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SvQ-Eh-Sqy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1564" y="150"/>
+            <point key="canvasLocation" x="1563.768115942029" y="150"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="WTi-aW-jof">
             <objects>
                 <viewController id="xuV-I7-UAn" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Nzz-3G-by6">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="jqh-xF-a9Q"/>
                     </view>
+                    <navigationItem key="navigationItem" id="OJA-Qb-yHr"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fkj-cT-Tl2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -187,9 +240,14 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="iUd-ii-RA4"/>
         <segue reference="crJ-9d-QNH"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="HADES" width="207" height="302"/>
+        <image name="HAM" width="207" height="300"/>
+        <image name="MEAN" width="207" height="300"/>
+        <image name="NEWS" width="204" height="302"/>
         <image name="Screen Shot 2020-06-09 at 2.31.36 PM" width="201" height="163"/>
         <image name="Screen Shot 2020-06-09 at 2.31.41 PM" width="175" height="228"/>
         <image name="Screen Shot 2020-06-09 at 2.31.46 PM" width="205" height="202"/>
