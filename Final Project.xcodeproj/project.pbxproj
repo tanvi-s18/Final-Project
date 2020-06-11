@@ -16,6 +16,12 @@
 		4921183D248FFC8000D93EA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4921183B248FFC8000D93EA3 /* LaunchScreen.storyboard */; };
 		49211848248FFC8000D93EA3 /* Final_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49211847248FFC8000D93EA3 /* Final_ProjectTests.swift */; };
 		49211853248FFC8000D93EA3 /* Final_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49211852248FFC8000D93EA3 /* Final_ProjectUITests.swift */; };
+		AA32F04924927C1400A9A3DE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA32F04824927C1400A9A3DE /* HomeViewController.swift */; };
+		AA32F04B24927C4900A9A3DE /* PopularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA32F04A24927C4900A9A3DE /* PopularViewController.swift */; };
+		AA32F04D24927CBC00A9A3DE /* MeanGirlsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA32F04C24927CBC00A9A3DE /* MeanGirlsViewController.swift */; };
+		AA32F04F24927CE300A9A3DE /* MeanGirlsCastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA32F04E24927CE300A9A3DE /* MeanGirlsCastViewController.swift */; };
+		AA32F05124927D1400A9A3DE /* NewsiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA32F05024927D1400A9A3DE /* NewsiesViewController.swift */; };
+		AA32F05324927D5F00A9A3DE /* NewsiesCastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA32F05224927D5F00A9A3DE /* NewsiesCastViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,12 @@
 		4921184E248FFC8000D93EA3 /* Final ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49211852248FFC8000D93EA3 /* Final_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_ProjectUITests.swift; sourceTree = "<group>"; };
 		49211854248FFC8000D93EA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA32F04824927C1400A9A3DE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AA32F04A24927C4900A9A3DE /* PopularViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularViewController.swift; sourceTree = "<group>"; };
+		AA32F04C24927CBC00A9A3DE /* MeanGirlsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeanGirlsViewController.swift; sourceTree = "<group>"; };
+		AA32F04E24927CE300A9A3DE /* MeanGirlsCastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeanGirlsCastViewController.swift; sourceTree = "<group>"; };
+		AA32F05024927D1400A9A3DE /* NewsiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsiesViewController.swift; sourceTree = "<group>"; };
+		AA32F05224927D5F00A9A3DE /* NewsiesCastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsiesCastViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,12 @@
 				4921182F248FFC7B00D93EA3 /* SceneDelegate.swift */,
 				49211831248FFC7B00D93EA3 /* ViewController.swift */,
 				49211833248FFC7B00D93EA3 /* Main.storyboard */,
+				AA32F04824927C1400A9A3DE /* HomeViewController.swift */,
+				AA32F04A24927C4900A9A3DE /* PopularViewController.swift */,
+				AA32F04C24927CBC00A9A3DE /* MeanGirlsViewController.swift */,
+				AA32F04E24927CE300A9A3DE /* MeanGirlsCastViewController.swift */,
+				AA32F05024927D1400A9A3DE /* NewsiesViewController.swift */,
+				AA32F05224927D5F00A9A3DE /* NewsiesCastViewController.swift */,
 				49211839248FFC8000D93EA3 /* Assets.xcassets */,
 				4921183B248FFC8000D93EA3 /* LaunchScreen.storyboard */,
 				4921183E248FFC8000D93EA3 /* Info.plist */,
@@ -262,8 +280,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA32F04F24927CE300A9A3DE /* MeanGirlsCastViewController.swift in Sources */,
+				AA32F04B24927C4900A9A3DE /* PopularViewController.swift in Sources */,
+				AA32F05124927D1400A9A3DE /* NewsiesViewController.swift in Sources */,
+				AA32F04924927C1400A9A3DE /* HomeViewController.swift in Sources */,
 				49211832248FFC7B00D93EA3 /* ViewController.swift in Sources */,
 				4921182E248FFC7B00D93EA3 /* AppDelegate.swift in Sources */,
+				AA32F05324927D5F00A9A3DE /* NewsiesCastViewController.swift in Sources */,
+				AA32F04D24927CBC00A9A3DE /* MeanGirlsViewController.swift in Sources */,
 				49211838248FFC7B00D93EA3 /* Final_Project.xcdatamodeld in Sources */,
 				49211830248FFC7B00D93EA3 /* SceneDelegate.swift in Sources */,
 			);

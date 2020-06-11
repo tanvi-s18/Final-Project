@@ -61,10 +61,10 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="126.5625"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="F4M-9q-zeW">
             <objects>
-                <viewController id="vGV-kE-5XX" sceneMemberID="viewController">
+                <viewController id="vGV-kE-5XX" customClass="HomeViewController" customModule="Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="s8e-cc-RgG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -229,10 +229,10 @@
             </objects>
             <point key="canvasLocation" x="900.00000000000011" y="145.98214285714286"/>
         </scene>
-        <!--View Controller-->
+        <!--Popular View Controller-->
         <scene sceneID="Tpy-dB-ZSF">
             <objects>
-                <viewController id="7kN-Zv-NhH" sceneMemberID="viewController">
+                <viewController id="7kN-Zv-NhH" customClass="PopularViewController" customModule="Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="buU-L2-ggR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -320,10 +320,10 @@
             </objects>
             <point key="canvasLocation" x="1563.768115942029" y="150"/>
         </scene>
-        <!--View Controller-->
+        <!--Mean Girls View Controller-->
         <scene sceneID="WTi-aW-jof">
             <objects>
-                <viewController id="xuV-I7-UAn" sceneMemberID="viewController">
+                <viewController id="xuV-I7-UAn" customClass="MeanGirlsViewController" customModule="Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Nzz-3G-by6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -338,6 +338,9 @@
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="50"/>
                                 <state key="normal" title="Play  "/>
+                                <connections>
+                                    <action selector="MGBtn_URL:" destination="xuV-I7-UAn" eventType="touchUpInside" id="Xgc-kc-kDU"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SUMMARY:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m9H-ml-YUB">
                                 <rect key="frame" x="20" y="367" width="110" height="49"/>
@@ -427,10 +430,10 @@
             </objects>
             <point key="canvasLocation" x="2242" y="150"/>
         </scene>
-        <!--View Controller-->
+        <!--Mean Girls Cast View Controller-->
         <scene sceneID="cjL-QL-pdK">
             <objects>
-                <viewController id="rvl-tx-6C5" sceneMemberID="viewController">
+                <viewController id="rvl-tx-6C5" customClass="MeanGirlsCastViewController" customModule="Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="frr-Ug-IPk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -546,10 +549,10 @@
             </objects>
             <point key="canvasLocation" x="2971.0144927536235" y="145.98214285714286"/>
         </scene>
-        <!--View Controller-->
+        <!--Newsies View Controller-->
         <scene sceneID="FOY-zt-CPx">
             <objects>
-                <viewController id="an4-Rj-f8n" sceneMemberID="viewController">
+                <viewController id="an4-Rj-f8n" customClass="NewsiesViewController" customModule="Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KY4-Bz-Ooa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -636,6 +639,17 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Image-6"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kHT-Rt-rO0">
+                                <rect key="frame" x="20" y="32" width="131" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="50"/>
+                                <state key="normal" title="Play  "/>
+                                <connections>
+                                    <action selector="MGBtn_URL:" destination="xuV-I7-UAn" eventType="touchUpInside" id="vxm-bW-tdW"/>
+                                    <action selector="newsiesBtn_URL:" destination="an4-Rj-f8n" eventType="touchUpInside" id="GZW-S4-Gbs"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="i1u-eG-lu5"/>
@@ -646,10 +660,10 @@
             </objects>
             <point key="canvasLocation" x="1563.768115942029" y="912.72321428571422"/>
         </scene>
-        <!--View Controller-->
+        <!--Newsies Cast View Controller-->
         <scene sceneID="v1f-UV-Wdg">
             <objects>
-                <viewController id="nEx-8r-5ez" sceneMemberID="viewController">
+                <viewController id="nEx-8r-5ez" customClass="NewsiesCastViewController" customModule="Final_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wnz-eo-Ya4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -767,8 +781,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ywA-lY-tlL"/>
-        <segue reference="iUd-ii-RA4"/>
+        <segue reference="cyU-g3-ZjQ"/>
+        <segue reference="9xr-OA-JsU"/>
         <segue reference="XwV-Ac-COh"/>
     </inferredMetricsTieBreakers>
     <resources>
