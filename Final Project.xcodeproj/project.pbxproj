@@ -22,6 +22,9 @@
 		AA32F04F24927CE300A9A3DE /* MeanGirlsCastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA32F04E24927CE300A9A3DE /* MeanGirlsCastViewController.swift */; };
 		AA32F05124927D1400A9A3DE /* NewsiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA32F05024927D1400A9A3DE /* NewsiesViewController.swift */; };
 		AA32F05324927D5F00A9A3DE /* NewsiesCastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA32F05224927D5F00A9A3DE /* NewsiesCastViewController.swift */; };
+		AA32F0552492900500A9A3DE /* HamiltonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA32F0542492900500A9A3DE /* HamiltonViewController.swift */; };
+		AA32F0572492904000A9A3DE /* HamiltonCastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA32F0562492904000A9A3DE /* HamiltonCastViewController.swift */; };
+		AA32F0592492A99300A9A3DE /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA32F0582492A99300A9A3DE /* FavoriteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,9 @@
 		AA32F04E24927CE300A9A3DE /* MeanGirlsCastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeanGirlsCastViewController.swift; sourceTree = "<group>"; };
 		AA32F05024927D1400A9A3DE /* NewsiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsiesViewController.swift; sourceTree = "<group>"; };
 		AA32F05224927D5F00A9A3DE /* NewsiesCastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsiesCastViewController.swift; sourceTree = "<group>"; };
+		AA32F0542492900500A9A3DE /* HamiltonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamiltonViewController.swift; sourceTree = "<group>"; };
+		AA32F0562492904000A9A3DE /* HamiltonCastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamiltonCastViewController.swift; sourceTree = "<group>"; };
+		AA32F0582492A99300A9A3DE /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +129,9 @@
 				AA32F04E24927CE300A9A3DE /* MeanGirlsCastViewController.swift */,
 				AA32F05024927D1400A9A3DE /* NewsiesViewController.swift */,
 				AA32F05224927D5F00A9A3DE /* NewsiesCastViewController.swift */,
+				AA32F0542492900500A9A3DE /* HamiltonViewController.swift */,
+				AA32F0562492904000A9A3DE /* HamiltonCastViewController.swift */,
+				AA32F0582492A99300A9A3DE /* FavoriteViewController.swift */,
 				49211839248FFC8000D93EA3 /* Assets.xcassets */,
 				4921183B248FFC8000D93EA3 /* LaunchScreen.storyboard */,
 				4921183E248FFC8000D93EA3 /* Info.plist */,
@@ -286,9 +295,12 @@
 				AA32F04924927C1400A9A3DE /* HomeViewController.swift in Sources */,
 				49211832248FFC7B00D93EA3 /* ViewController.swift in Sources */,
 				4921182E248FFC7B00D93EA3 /* AppDelegate.swift in Sources */,
+				AA32F0552492900500A9A3DE /* HamiltonViewController.swift in Sources */,
 				AA32F05324927D5F00A9A3DE /* NewsiesCastViewController.swift in Sources */,
 				AA32F04D24927CBC00A9A3DE /* MeanGirlsViewController.swift in Sources */,
+				AA32F0592492A99300A9A3DE /* FavoriteViewController.swift in Sources */,
 				49211838248FFC7B00D93EA3 /* Final_Project.xcdatamodeld in Sources */,
+				AA32F0572492904000A9A3DE /* HamiltonCastViewController.swift in Sources */,
 				49211830248FFC7B00D93EA3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
