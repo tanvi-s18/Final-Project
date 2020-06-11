@@ -428,7 +428,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fkj-cT-Tl2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2242" y="150"/>
+            <point key="canvasLocation" x="2240.5797101449275" y="150"/>
         </scene>
         <!--Mean Girls Cast View Controller-->
         <scene sceneID="cjL-QL-pdK">
@@ -548,6 +548,106 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FTU-pp-Jlh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2971.0144927536235" y="145.98214285714286"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="06c-Vr-tru">
+            <objects>
+                <viewController id="Xw6-3Z-kEw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mTl-Ow-uhO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ham-1" translatesAutoresizingMaskIntoConstraints="NO" id="oBl-QI-3jC">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="380"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SUMMARY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lT0-cO-BKJ">
+                                <rect key="frame" x="20" y="388" width="123" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dh5-3h-h4L">
+                                <rect key="frame" x="20" y="417" width="374" height="211"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">The musical details Hamilton's life in two acts, along with how various historical characters influenced his life such as Gilbert du Motier, Marquis de Lafayette, Aaron Burr, John Laurens, Hercules Mulligan, Elizabeth Schuyler Hamilton, Angelica Schuyler, Peggy Schuyler, Philip Hamilton, and former presidents George Washington, James Madison, and Thomas Jefferson.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FJh-FO-FBC">
+                                <rect key="frame" x="23" y="638" width="49" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                <state key="normal" title="CAST">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tDs-Ok-XaI" kind="show" id="CRu-aD-oWh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2qL-h1-8IO">
+                                <rect key="frame" x="99" y="638" width="44" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                <state key="normal" title="INFO">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3It-SC-zRe">
+                                <rect key="frame" x="247" y="638" width="147" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                <state key="normal" title="MORE LIKE THIS">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z0b-0H-Gjv">
+                                <rect key="frame" x="167" y="638" width="72" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                <state key="normal" title="EXTRAS">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="i9z-2k-kTK"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8MQ-mS-21w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3681.1594202898555" y="146.65178571428569"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="JSu-WD-f45">
+            <objects>
+                <viewController id="tDs-Ok-XaI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZK9-tr-zVe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CAST" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c2s-cE-JPa">
+                                <rect key="frame" x="20" y="61" width="374" height="152"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="60"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-8" translatesAutoresizingMaskIntoConstraints="NO" id="MNp-sr-Id6">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="870"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="QgG-7C-dk6"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="elV-73-NXF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SBK-qU-o8K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4328.985507246377" y="142.63392857142856"/>
         </scene>
         <!--Newsies View Controller-->
         <scene sceneID="FOY-zt-CPx">
@@ -783,7 +883,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="cyU-g3-ZjQ"/>
         <segue reference="9xr-OA-JsU"/>
-        <segue reference="XwV-Ac-COh"/>
+        <segue reference="Ph5-nZ-SvP"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="HADES" width="207" height="302"/>
@@ -792,6 +892,7 @@
         <image name="Image-1" width="73" height="89"/>
         <image name="Image-5" width="85" height="88"/>
         <image name="Image-6" width="101" height="81"/>
+        <image name="Image-8" width="631" height="816"/>
         <image name="MEAN" width="207" height="300"/>
         <image name="NEWS" width="204" height="302"/>
         <image name="Screen Shot 2020-06-09 at 2.31.36 PM" width="201" height="163"/>
@@ -815,6 +916,7 @@
         <image name="Screen Shot 2020-06-10 at 11.40.23 PM" width="153" height="140"/>
         <image name="Screen Shot 2020-06-10 at 11.40.29 PM" width="159" height="137"/>
         <image name="Screen Shot 2020-06-10 at 11.40.35 PM" width="157" height="135"/>
+        <image name="ham-1" width="445" height="325"/>
         <image name="hamilton" width="103" height="148"/>
         <image name="mg" width="440" height="272"/>
         <image name="newsies" width="103" height="148"/>
